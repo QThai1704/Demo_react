@@ -1,12 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import image from "./image/image2.jpg";
 
 function Information1() {
     return (
         <div class="col-md-6">
             <div class="row">
                 <div calss="col-3">
-                    <img src="./image1.jpg" alt="..." />
+                    <img src={image} alt="..." />
                 </div>
                 <div calss="col-3">
                     <h5>CHƯƠNG TRÌNH ĐÀO TẠO</h5>

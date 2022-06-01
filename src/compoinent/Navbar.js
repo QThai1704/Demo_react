@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
     return (
-        <div class="container mt-5">
+        <div class="container">
             <nav class="navbar navbar-expand-lg bg-dark border-top border-5 border-danger">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#"></a>
