@@ -11,14 +11,14 @@ function App() {
   return (
     <React.Fragment>
       <Header />
-      {/* <BrowserRouter>
-        <div className="App"> */}
-      <Navbar />
-      {/* <Routes>
+      <BrowserRouter>
+        <div className="App">
+          <Navbar />
+          <Routes>
             <Route path="/Mynews" element={<MyNews />} />
           </Routes>
         </div>
-      </BrowserRouter> */}
+      </BrowserRouter>
       <Content />
       <Footer />
     </React.Fragment>
